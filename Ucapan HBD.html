@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD SYAFIRA DARI BEN</title>
+    <audio src="ULTAH.mp3.mp3" autoplay></audio>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+  </head>
+</head>
+
+<body style="background-image: url(https://images.unsplash.com/photo-1726236791758-791b49f66724?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"class="flex justify-center h-screen items-center widht"
+>
+
+<div class="bg-white border px-10 py-8 border-4 border-gray-300 shadow-lg shadow-blue-300 rounded-xl text-center animate__animated animate__backInDown m-8 w-80"
+id="kartu">
+  <h1 class="text-3xl">Happy Birthday</h1>
+  <h1 class="text-4xl text-blue-500 font-bold animate__animated animate__pulse animate__infinite">Syafira</h1>
+  <button class="p-3 bg-blue-600 text-white rounded mt-5 hover:bg-blue-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+  onclick="ubahkartu()">Klik Disini</button>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script>
+      confetti({
+  particleCount: 100,
+  spread: 70,
+  origin: { y: 0.6 },
+});
+let kartu = document.getElementById("kartu")
+function ubahkartu() {
+  kartu.innerHTML = `<h1 class="font-semibold text-wrap animate__animated animate__zoomin">Selamat Ulang Tahun Syafira yang ke 17 🎉🎂! Semoga tahun ini makin banyak kebahagiaan,
+  rezeki lancar,dan semoga segala impian mu menjadi nyata.aamiin yaroball alamin 
+</h1>
+<h2 class="mt-3 animate__animated animate__fadein">- Dari : Ben dan Tante Benti -</h2>
+
+<a href="Flower1.html" target="_blank"><p style="color: blue;">KLIK SINI LURRR</p> </a>
+
+<button class="p-3 bg-slate-600 text-white rounded mt-2 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+onclick="refresh()"
+>Tutup</button>`;
+
+}
+function refresh() {
+  location.reload();
+}
+    
+</script>
+</script>  
+</body>
+</html>
